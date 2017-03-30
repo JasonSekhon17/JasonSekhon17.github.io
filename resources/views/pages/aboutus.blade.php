@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="{{ config('app.locale') }}">
 <head>
     <meta charset="utf-8">
@@ -79,15 +79,18 @@
 
     <div class="content">
         <div class="title m-b-md">
-            Contact Us
+            About Us
         </div>
-
+        <div class="dark">
+            <figure>
+                <img class="about" src="/images/gator.JPG" alt="Jason">
+                <figcaption>wooooooah</figcaption>
+            </figure>>
         <div class="links">
             <a href="https://laravel.com/docs">Documentation</a>
             <a href="https://laracasts.com">Laracasts</a>
             <a href="https://laravel-news.com">News</a>
-            <a href="contact">Home</a>
-            <a href="about">About</a>
+            <a href="contact">Contact Us</a>
             <a href="https://forge.laravel.com">Forge</a>
             <a href="https://github.com/laravel/laravel">GitHub</a>
         </div>
