@@ -79,35 +79,33 @@
 
     <div class="content">
         <div class="title m-b-md">
-            About Us
+            {{$companyName}} is hiring for position of {{$jobTitle}}
         </div>
-        <div class="dark">
-            <figure>
-                <img class="about" src="/images/gator.JPG" alt="Jason">
-                <figcaption>wooooooah</figcaption>
-            </figure>
-        </div>
+        <div style="...">Apply for jobs with a swipe; post for applicants with ease</div><br>
+
         <div class="links">
             <a href="https://laravel.com/docs">Documentation</a>
             <a href="https://laracasts.com">Laracasts</a>
             <a href="https://laravel-news.com">News</a>
-            <a href="/">Home</a>
             <a href="contact">Contact Us</a>
+            <a href="about">About</a>
+            <a href="/">Home</a>
             <a href="https://forge.laravel.com">Forge</a>
             <a href="https://github.com/laravel/laravel">GitHub</a>
         </div>
     </div>
 </div>
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-            ga('create', 'UA-96555216-1', 'auto');
-            ga('send', 'pageview');
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        </script>
+    ga('create', 'UA-96555216-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
 </body>
 </html>
-
