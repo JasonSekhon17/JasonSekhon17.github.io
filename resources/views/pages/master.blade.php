@@ -86,9 +86,8 @@
             @yield('data')
         </div>
         <div class="links">
-            <a href="https://laravel.com/docs">Documentation</a>
-            <a href="https://laracasts.com">Laracasts</a>
-            <a href="https://laravel-news.com">News</a>
+            <a href="/">Home</a>
+            <a href="/post/1">Our Job Postings</a>
             <a href="/profile">Company Profile</a>
             <a href="/contact">Contact Us</a>
             <a href="/about">About</a>

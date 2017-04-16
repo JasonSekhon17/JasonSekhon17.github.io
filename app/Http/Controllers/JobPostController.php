@@ -64,7 +64,10 @@ class JobPostController extends Controller
                                                 Previous experience in retail, customer service, or other related fields
                                                 Ability to thrive in a fast-paced environment
                                                 Excellent written and communication skills
-                                                Strong leadership qualities'
+                                                Strong leadership qualities'])
+                ->with('contacts',["jobs@seveneleven.com",
+                    "604.555.1212",
+                    "123 Main Street, North Vancouver BC Canada"
             ]);
         } else if ($id == 2) {
             return view('postings/jobposting')->with([
@@ -81,6 +84,8 @@ class JobPostController extends Controller
             ]);
         }
     }
+
+
 
     /**
      * Show the form for editing the specified resource.
